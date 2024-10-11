@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a48c0307-3c81-4a29-8dee-5dee99041c5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labwork1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labwork1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labwork1/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labwork1/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labwork1/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labwork2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labwork2/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labwork2/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labwork2/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -41,9 +33,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mfgvb3lX7Cv6WQzeE43VVOxQhn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,18 +45,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Task1.executor": "Run",
+    "Application.Task1_3.executor": "Run",
     "Application.Task1ans2.executor": "Run",
-    "Application.Task2.executor": "Debug",
+    "Application.Task2.executor": "Run",
     "Application.Task3.executor": "Run",
     "Application.Task4.executor": "Run",
+    "Application.Task5.executor": "Run",
+    "Application.labwork2.Task1.executor": "Run",
+    "Application.labwork2.Task2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Youssouf/IdeaProjects/labwork",
     "onboarding.tips.debug.path": "C:/Users/Youssouf/IdeaProjects/labwork1/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.Task5">
     <configuration name="Task1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="labwork1.Task1" />
       <module name="labwork1" />
@@ -78,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labwork1.Task2" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labwork2.Task3" />
       <module name="labwork1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labwork1.*" />
+          <option name="PATTERN" value="labwork2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +89,50 @@
       </method>
     </configuration>
     <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labwork1.Task4" />
+      <option name="MAIN_CLASS_NAME" value="labwork2.Task4" />
       <module name="labwork1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labwork1.*" />
+          <option name="PATTERN" value="labwork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labwork2.Task5" />
+      <module name="labwork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labwork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="labwork2.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labwork2.Task1" />
+      <module name="labwork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labwork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="labwork2.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labwork2.Task2" />
+      <module name="labwork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labwork2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.labwork2.Task2" />
+        <item itemvalue="Application.labwork2.Task1" />
       </list>
     </recent_temporary>
   </component>
