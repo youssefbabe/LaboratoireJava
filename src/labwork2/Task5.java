@@ -45,9 +45,6 @@ public class Task5 {
         // Méthode pour effectuer le calcul
         public static void performCalculation() {
 
-
-
-
                     Scanner scanner = new Scanner(System.in);
                     boolean exit = false;
 
